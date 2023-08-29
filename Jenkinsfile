@@ -6,7 +6,7 @@ pipeline{
 
 
 
-                      stages ("stage-1"){
+                      stage ("stage-1"){
 
                              steps {
 
