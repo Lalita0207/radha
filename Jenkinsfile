@@ -6,7 +6,7 @@ pipeline{
 
 
 
-                      stage ("stage-2023q1"){
+                      stage ("stage-1 in 2023q1"){
 
                              steps {
 
@@ -17,7 +17,7 @@ pipeline{
 
         }
                       }                       
-                                              stage ("stage-2023q1"){
+                                              stage ("stage-2 in 2023q1"){
 
                              steps {
 
