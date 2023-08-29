@@ -18,7 +18,9 @@ pipeline{
 
         }
                       }                       
-                                              stage ("stage-2 in 2023q1"){
+                                              parallel {
+                                             stage ("stage-2 in 2023q1"){
+                                                
 
                              steps {
 
@@ -27,8 +29,21 @@ pipeline{
                                sleep 25
 
 
+                             }
+        } 
+                                         stage ("stage-3 in 2023q1"){
+                                                
 
+                             steps {
+
+                               
+                                          echo " this is my 3rd stage-2023q1"  
+                               sleep 25
+
+
+                             }
         }
+
       }
     }
   }
