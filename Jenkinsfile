@@ -11,7 +11,8 @@ pipeline{
                              steps {
 
                                
-                                          echo " this is my 1st stage-2023q1"     
+                                          echo " this is my 1st stage-2023q1"   
+                               sleep 20
 
 
 
@@ -22,7 +23,8 @@ pipeline{
                              steps {
 
                                
-                                          echo " this is my 2nd stage-2023q1"     
+                                          echo " this is my 2nd stage-2023q1"  
+                               sleep 20
 
 
 
