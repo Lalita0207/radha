@@ -12,7 +12,7 @@ pipeline{
 
                                
                                           echo " this is my 1st stage-2023q1"   
-                               sleep 20
+                               sleep 25
 
 
 
@@ -24,7 +24,7 @@ pipeline{
 
                                
                                           echo " this is my 2nd stage-2023q1"  
-                               sleep 20
+                               sleep 25
 
 
 
