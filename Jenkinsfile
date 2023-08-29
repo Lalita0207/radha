@@ -17,7 +17,9 @@ pipeline{
 
 
         }
-                      }                       
+                      }             
+                  stage ("parallel stage") {
+                  
                                               parallel {
                                              stage ("stage-2 in 2023q1"){
                                                 
@@ -43,7 +45,7 @@ pipeline{
 
                              }
         }
-
+         }
       }
     }
   }
