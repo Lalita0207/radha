@@ -6,12 +6,12 @@ pipeline{
 
 
 
-                      stage ("stage-1"){
+                      stage ("stage-3"){
 
                              steps {
 
                                
-                                          echo " this is my 1st stage-1"     
+                                          echo " this is my 1st stage-3"     
 
 
 
